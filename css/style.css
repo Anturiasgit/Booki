@@ -81,8 +81,8 @@ nav .item {
 }
 
 .item:hover {
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
 }
 
 
@@ -118,7 +118,7 @@ form #location {
     border-bottom-left-radius: 15px;
     width: 50px;
     border: 1px solid #f2f2f2;
-    display: flex;  
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
@@ -135,10 +135,10 @@ form #search {
 
 form button {
     font-weight: bold;
-    font-size: 16px; 
+    font-size: 16px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #0065FC;
+    background-color: var(--main-color);
     border: none;
     color: white;
     width: 150px;
@@ -146,19 +146,46 @@ form button {
 
 .filtres .filtres-buttons {
     display: flex;
+    align-items: center;
 }
 
 .filtres-buttons p {
     font-weight: bold;
+    margin-right: 10px;
 }
 
 .filtres-buttons button {
-    margin: 0 10px;
+    margin-right: 10px;
+    padding: 0 15px; 
+    display: flex;
+    align-items: center;
     background-color: white;
     border: 2px solid #d9d9d9;
-    font-weight: bold
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: medium;
+    height: 45px;
 }
 
+.filtres-buttons i {
+    margin-right: 10px;
+    font-size: large;
+}
+
+.filtres button:hover {
+   background-color: var(--filter-bg-color);
+}
+
+.filtres .info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.fa-circle-info {
+    color: white;
+    background-color: #0065FC;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
