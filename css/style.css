@@ -227,6 +227,11 @@ form button {
     align-items: center;
 }
 
+.hebergements-cards a {
+    display: flex;    
+    
+}
+
 .hebergements-cards .card {
     margin-top: 33px;
     width: 32%;
@@ -234,11 +239,26 @@ form button {
 }
 
 .hebergements-cards img {
-    object-position: top right;
     width: 100%;
     height: 106px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    padding-left: 10px;
+    margin-top: -12px;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    font-size: 15px;   
+    margin-bottom: -7px;
+}
+
+.hebergements-cards .card-subtitle {
+    font-size: 13px;
+    margin-bottom: 5px;
 }
 
 
