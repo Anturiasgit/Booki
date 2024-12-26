@@ -121,7 +121,7 @@ form #location {
     background-color: #f2f2f2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    width: 50px;
+    width: 45px;
     border: 1px solid #f2f2f2;
     display: flex;
     justify-content: space-around;
@@ -135,7 +135,7 @@ form #search {
     font-size: 16px;
     border-left: none;
     border-right: none;
-    width: 190px;
+    width: 178px;
 }
 
 form button {
@@ -146,7 +146,7 @@ form button {
     background-color: var(--main-color);
     border: none;
     color: white;
-    width: 150px;
+    width: 115px;
 }
 
 .filtres .filtres-buttons {
@@ -220,6 +220,28 @@ form button {
 .hebergements {
     width: 65%;
 }
+
+.hebergements-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hebergements-cards .card {
+    margin-top: 33px;
+    width: 32%;
+    height: 180px;
+}
+
+.hebergements-cards img {
+    object-position: top right;
+    width: 100%;
+    height: 106px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
 
 /****** Populaires ***********/
 .populaires {
