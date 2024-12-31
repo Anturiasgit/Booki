@@ -21,6 +21,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -143,7 +144,7 @@ form button {
     font-size: 16px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: var(--main-color);
+    background-color: #0065FC;
     border: none;
     color: white;
     width: 115px;
@@ -178,7 +179,7 @@ form button {
 }
 
 .filtres button:hover {
-    background-color: var(--filter-bg-color);
+    background-color: #DEEBFF;
 }
 
 .filtres .info {
@@ -354,7 +355,7 @@ main {
 /******* Footer ********/
 .footer {
     display: flex;    
-    background-color: var(--main-bg-color);
+    background-color: #F2F2F2;
     padding-left: 20px;
     font-size: 90%;
 }
@@ -366,7 +367,7 @@ main {
 .bloc-footer {
     height: 50px;
     margin: 0 -58px -15px;
-    background-color: var(--main-bg-color);
+    background-color: #F2F2F2;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -404,6 +405,27 @@ main {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .activites-cards .card {
+        height: 270px;
+    }    
+
+    .activites-cards img {
+        height: 200px;
+    }
+
+    .footer {
+        margin-bottom: -15px;
+    }
+
+    .footer section {
+        margin-right: 150px;
+    }
+
+    .bloc-footer {
+        display: none;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
