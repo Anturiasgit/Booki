@@ -340,11 +340,11 @@ form button {
 }
 
 .activites-cards .card-content {
- padding-left: 20px;
+    padding-left: 20px;
 }
 
 .activites-cards .card-title {
- font-size: 15px;
+    font-size: 15px;
 }
 
 main {
@@ -354,15 +354,15 @@ main {
 
 /******* Footer ********/
 .footer {
-    display: flex;    
+    display: flex;
     background-color: #F2F2F2;
     padding-left: 20px;
     font-size: 90%;
 }
 
 .footer section {
-  margin-right: 250px;    
-} 
+    margin-right: 250px;
+}
 
 .bloc-footer {
     height: 50px;
@@ -408,7 +408,7 @@ main {
 
     .activites-cards .card {
         height: 270px;
-    }    
+    }
 
     .activites-cards img {
         height: 200px;
@@ -430,5 +430,58 @@ main {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+
+    .main-container {
+        padding: 0;
+    }
+
+    .logo-and-nav {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .logo-and-nav nav {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .logo-and-nav ul {
+        padding-left: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .logo-and-nav .item {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 15px;
+    }
+
+    .item:hover {
+        border-bottom: 2px solid #0065FC; 
+        border-top: none;
+    }
+
+    .recherche-and-filtres {
+        margin-top: -22.5px;
+        padding: 0 15px;
+    }
+
+    .recherche-and-filtres .recherche-title {
+        text-align: left;
+    }
+
+    .recherche-and-filtres form {
+        width: 100%;
+    }
+
+    
+
+  
+
+
+
+
 }
