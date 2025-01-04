@@ -460,7 +460,7 @@ main {
     }
 
     .item:hover {
-        border-bottom: 2px solid #0065FC; 
+        border-bottom: 2px solid #0065FC;
         border-top: none;
     }
 
@@ -469,17 +469,42 @@ main {
         padding: 0 15px;
     }
 
+
     .recherche-and-filtres .recherche-title {
         text-align: left;
     }
 
-    .recherche-and-filtres form {
-        width: 100%;
+    .recherche-and-filtres form .text {
+        display: none;
     }
 
-    
+    .recherche-and-filtres form .fa-magnifying-glass {
+        display: inline;
+        color: white;
+    }
 
+    .recherche-and-filtres form .btn-search {
+        width: 50px;
+        border-radius: 15px;
+        margin-left: -12px;
+    }
+
+    .recherche-and-filtres form #search {
+        width: 243px;
+    }
+
+
+    .filtres .filtres-buttons p {
+        font-size: larger;
+        margin: 5px 0 200px;
+    }
   
+    .filtres .filtres-buttons .btn-filtres {
+        display: flex;
+        flex-wrap:wrap;
+        margin-left: -60px;
+    }
+
 
 
 
