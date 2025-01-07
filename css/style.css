@@ -496,13 +496,20 @@ main {
 
     .filtres .filtres-buttons p {
         font-size: larger;
-        margin: 5px 0 200px;
+         margin-top: 5px; 
+    }
+
+    .filtres .filtres-buttons {
+        flex-wrap: wrap;
     }
   
-    .filtres .filtres-buttons .btn-filtres {
+    .filtres .filtres-buttons .btn-filtres-1 {
         display: flex;
-        flex-wrap:wrap;
-        margin-left: -60px;
+        margin: 2.5px 70px 20px 0;
+    } 
+    
+    .filtres .filtres-buttons .btn-filtres-2 {
+        display: flex;
     }
 
 
