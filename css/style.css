@@ -234,16 +234,18 @@ form .btn-search .fa-magnifying-glass {
     width: 65%;
 }
 
-.hebergements-cards a {
-    width: 100%;
+.hebergements .hebergements-cards {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hebergements-cards a {
+    margin-top: 33px;
+    width: 30%;
 }
 
 .hebergements-cards .card {
-    margin-top: 33px;
-    width: 30%;
     height: 188px;
 }
 
@@ -407,6 +409,22 @@ main {
 
     .hebergements {
         width: 100%;
+    }
+
+    .hebergements-cards .card {
+        height: 175px;
+    }
+
+    .hebergements-cards img {
+        height: 58%;
+    }
+
+    .hebergements-cards .card-title {
+        margin-bottom: 7px;
+    }
+
+    .hebergements-cards .card-subtitle {
+        margin-top: 0;
     }
 
     .populaires {
@@ -588,13 +606,16 @@ main {
         padding: 30px 20px 25px;
     }
 
-    .hebergements .hebergements-cards a {
+    .hebergements .hebergements-cards {
         flex-direction: column;
+    }
+
+    .hebergements .hebergements-cards a {
+    width: auto;
+    margin-top: 15px; 
     }
     
     .hebergements-cards article.card {
-      width: auto;
-      margin-top: 15px;
       height: 205px;
     }
 
