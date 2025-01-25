@@ -572,13 +572,15 @@ body {
         flex-wrap: wrap;
     }
 
-    .btn-filtres .btn-filtres-1 {
-        margin-top: 25px;
-    }
+    .filtres .filtres-title {
+    margin-top: -15px;
+   } 
 
-    .btn-filtres .btn-filtres-2 {
+
+   .filtres .btn-filtres-1,
+    .btn-filtres-2 {
         margin-top: 25px;
-    }
+    } 
 
     .filtres .btn-filtres button {
         width: 160px;
@@ -704,6 +706,15 @@ body {
 
     .footer .footer-content {
         white-space: nowrap;
+    }
+
+}
+
+
+@media (max-width: 399.98px) {
+
+    .btn-filtres .btn-filtres-1 {
+        margin-left: 0;
     }
 
 }
