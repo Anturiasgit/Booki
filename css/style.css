@@ -162,26 +162,21 @@ form .btn-search .fa-magnifying-glass {
     display: none;
 }
 
-.filtres {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.filtres .filtres-buttons {
-    display: flex;
-    align-items: center;
-}
 
 .filtres .filtres-title {
     font-weight: bold;
     margin-right: 10px;
-}
+ }
 
-.filtres-buttons .btn-filtres-1, .btn-filtres-2 {
+.filtres .btn-filtres {
     display: flex;
 }
 
-.filtres-buttons button {
+.btn-filtres .btn-filtres-1, .btn-filtres-2 {
+    display: flex;
+}
+
+.filtres button {
     margin-right: 10px;
     padding: 0 15px;
     display: flex;
@@ -194,7 +189,7 @@ form .btn-search .fa-magnifying-glass {
     height: 45px;
 }
 
-.filtres-buttons i {
+.filtres i {
     margin-right: 10px;
     font-size: large;
 }
@@ -408,7 +403,7 @@ section .footer-content {
     background-color: #F2F2F2;
 }
  
-html, body {
+body {
     overflow-x: hidden;
 }
 
@@ -417,16 +412,16 @@ html, body {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .filtres .filtres-buttons .filtres-title {
+    .filtres .filtres-title {
         font-size: larger;
-        margin: 0 0 60px;
+        margin: 0;
     }
 
-    .filtres-buttons .btn-filtres-1 {
+    .filtres .btn-filtres-1 {
         margin: 50px 0 0 -60px;
     }
 
-    .filtres-buttons .btn-filtres-2 {
+    .filtres .btn-filtres-2 {
         margin-top: 50px;
     }
 
@@ -566,31 +561,26 @@ html, body {
     }
 
 
-    .filtres .filtres-buttons .filtres-title {
+    .filtres .filtres-title {
         font-size: larger;
-        margin: 5px 0 15px;
     }
 
-    .filtres .filtres-buttons {
+    .filtres .btn-filtres {
+        display:flex;
         flex-wrap: wrap;
+    } 
+
+    .btn-filtres .btn-filtres-1 {
     }
 
-    .filtres .filtres-buttons .btn-filtres-1 {
-        display: flex;
-        margin: 2.5px 70px 20px 0;
+    .btn-filtres .btn-filtres-2, .btn-filtres-1 {
+        margin-top: 25px;
     }
 
-    .filtres .filtres-buttons .btn-filtres-2 {
-        display: flex;
-        margin-top: 0;
-    }
-
-
-    .filtres .filtres-buttons .btn-filtres-1 button,
-    .btn-filtres-2 button {
+    .filtres .btn-filtres button {
         width: 160px;
         font-size: smaller;
-    }
+    } 
 
     .hebergements-and-populaires {
         display: flex;
