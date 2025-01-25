@@ -166,13 +166,14 @@ form .btn-search .fa-magnifying-glass {
 .filtres .filtres-title {
     font-weight: bold;
     margin-right: 10px;
- }
+}
 
 .filtres .btn-filtres {
     display: flex;
 }
 
-.btn-filtres .btn-filtres-1, .btn-filtres-2 {
+.btn-filtres .btn-filtres-1,
+.btn-filtres-2 {
     display: flex;
 }
 
@@ -378,9 +379,9 @@ main {
     justify-content: space-between;
 }
 
- .footer section {
-  width: 30%;
-} 
+.footer section {
+    width: 30%;
+}
 
 section .footer-title h3 {
     margin-bottom: 0;
@@ -402,7 +403,7 @@ section .footer-content {
     margin: 0 -58px -15px;
     background-color: #F2F2F2;
 }
- 
+
 body {
     overflow-x: hidden;
 }
@@ -417,14 +418,14 @@ body {
         margin: 0;
     }
 
-    .filtres .btn-filtres-1 {
-        margin: 50px 0 0 -60px;
-    }
-
-    .filtres .btn-filtres-2 {
+    .filtres .btn-filtres-1,
+    .btn-filtres-2 {
         margin-top: 50px;
     }
 
+    .btn-filtres .btn-filtres-1 {
+        margin-left: -60px;
+    }
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -563,24 +564,26 @@ body {
 
     .filtres .filtres-title {
         font-size: larger;
+        height: 22px;
     }
 
     .filtres .btn-filtres {
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
-    } 
-
-    .btn-filtres .btn-filtres-1 {
     }
 
-    .btn-filtres .btn-filtres-2, .btn-filtres-1 {
+    .btn-filtres .btn-filtres-1 {
+        margin-top: 25px;
+    }
+
+    .btn-filtres .btn-filtres-2 {
         margin-top: 25px;
     }
 
     .filtres .btn-filtres button {
         width: 160px;
         font-size: smaller;
-    } 
+    }
 
     .hebergements-and-populaires {
         display: flex;
@@ -629,12 +632,12 @@ body {
     }
 
     .hebergements .hebergements-cards a {
-    width: auto;
-    margin-top: 15px; 
+        width: auto;
+        margin-top: 15px;
     }
-    
+
     .hebergements-cards article.card {
-      height: 205px;
+        height: 205px;
     }
 
     .hebergements-cards img {
@@ -654,7 +657,7 @@ body {
     .hebergements-cards .afficher-plus {
         margin-top: 0;
     }
-   
+
     .activites-a-marseille {
         margin-top: 45px;
     }
@@ -674,7 +677,7 @@ body {
     }
 
     .activites-cards article.card img {
-      height: 155px;          
+        height: 155px;
     }
 
     .activites-cards article.card .card-title {
