@@ -474,6 +474,10 @@ body {
         font-size: 13px;
     }
 
+    .activites-cards a {
+        height: 280px;
+    }
+
     .activites-cards .card {
         height: 270px;
     }
