@@ -195,6 +195,10 @@ form .btn-search .fa-magnifying-glass {
     font-size: large;
 }
 
+.filtres .fa-info {
+    margin-right: 0;
+}
+
 .filtres button:hover {
     background-color: #DEEBFF;
 }
